@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="OriginalSize" xml:space="preserve"><value>Original Size</value></data>
+  <data name="ExpandAll" xml:space="preserve"><value>Expand all</value></data>
+  <data name="AssemblyBrowser" xml:space="preserve"><value>Assembly Browser</value></data>
+  <data name="Decolorize" xml:space="preserve"><value>Decolorize</value></data>
+  <data name="FillGraph" xml:space="preserve"><value>Fill Graph</value></data>
+  <data name="Search" xml:space="preserve"><value>Search</value></data>
+  <data name="SortBy" xml:space="preserve"><value>Sort by</value></data>
+  <data name="Public" xml:space="preserve"><value>Public</value></data>
+  <data name="DescendantsCount" xml:space="preserve"><value>Descendants count</value></data>
+  <data name="CannotNavigateBack" xml:space="preserve"><value>Cannot navigate back</value></data>
+  <data name="InteractionBrowser" xml:space="preserve"><value>Interaction Browser</value></data>
+  <data name="SelectTypes" xml:space="preserve"><value>Types</value></data>
+  <data name="BackToSearch" xml:space="preserve"><value>Back to Search</value></data>
+  <data name="CollapseAll" xml:space="preserve"><value>Collapse all</value></data>
+  <data name="MembersCount" xml:space="preserve"><value>Members count</value></data>
+  <data name="OverrideFrom" xml:space="preserve"><value>Override from</value></data>
+  <data name="Internal" xml:space="preserve"><value>Internal</value></data>
+  <data name="NotAvailable" xml:space="preserve"><value>Not available</value></data>
+  <data name="Any" xml:space="preserve"><value>Any</value></data>
+  <data name="All" xml:space="preserve"><value>All</value></data>
+  <data name="Enums" xml:space="preserve"><value>Enums</value></data>
+  <data name="Types" xml:space="preserve"><value>Types</value></data>
+  <data name="Colorize" xml:space="preserve"><value>Colorize</value></data>
+  <data name="ClearSelection" xml:space="preserve"><value>Clear Selection</value></data>
+  <data name="CannotNavigateForward" xml:space="preserve"><value>Cannot navigate forward</value></data>
+  <data name="Virtual" xml:space="preserve"><value>Virtual</value></data>
+  <data name="SearchInGraph" xml:space="preserve"><value>Search in Graph</value></data>
+  <data name="Interfaces" xml:space="preserve"><value>Interfaces</value></data>
+  <data name="Members" xml:space="preserve"><value>Members</value></data>
+  <data name="Visibility" xml:space="preserve"><value>Visibility</value></data>
+  <data name="RemoveSelected" xml:space="preserve"><value>Remove Selected</value></data>
+  <data name="BrowseSelected" xml:space="preserve"><value>Browse Selected</value></data>
+  <data name="Name" xml:space="preserve"><value>Name</value></data>
+  <data name="ValueTypes" xml:space="preserve"><value>Value types</value></data>
+  </root>

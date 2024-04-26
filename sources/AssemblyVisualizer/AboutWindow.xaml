@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="AssemblyVisualizer.About.AboutWindow" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="About" Height="340" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" UseLayoutRounding="True" xmlns:about="clr-namespace:AssemblyVisualizer.About;assembly=AssemblyVisualizer.Plugin">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="..\Common\ControlStylesDictionary.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <UIElement.InputBindings>
+    <KeyBinding Key="Escape" x:Name="escapeBinding" />
+  </UIElement.InputBindings>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Image Source="../Images/1xp180.png" Stretch="Uniform" Width="180" Height="180" />
+    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Margin="0, 0, 0, 20">
+      <TextBlock Grid.Row="1" HorizontalAlignment="Center" FontSize="14">
+        <TextBlock Text="Assembly Visualizer" /> <TextBlock Name="txtVersion" /></TextBlock>
+      <TextBlock Text="by Denis Markelov" HorizontalAlignment="Center" FontSize="13" Margin="0, 3, 0, 0" />
+      <TextBlock Margin="0, 14, 0, 0" HorizontalAlignment="Center">
+        <Run>Get sources from</Run> <Hyperlink Style="{StaticResource HyperlinkStyle}" Click="SourcesClickHandler"><TextBlock>GitHub</TextBlock></Hyperlink></TextBlock>
+    </StackPanel>
+  </Grid>
+</Window>

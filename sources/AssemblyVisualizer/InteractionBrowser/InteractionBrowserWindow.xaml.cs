@@ -100,6 +100,16 @@ namespace AssemblyVisualizer.InteractionBrowser
         {
             txtSearch.Focus();
         }
+		public void AddTypes(IEnumerable<TypeInfo> types, bool drawGraph)
+		{
+			ViewModel.AddTypes(types, drawGraph);
+			Activate();
+		}
+		public Visual Thumbnail => zoomControl;
 
-    }
+		public string ThumbnailTooltip => string.Join("\n", ViewModel.Hierarchies.Select((HierarchyViewModel h) => h.Types.First().Name));
+
+
+
+	}
 }

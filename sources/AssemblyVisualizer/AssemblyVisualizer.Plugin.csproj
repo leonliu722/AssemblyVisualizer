@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<AssemblyName>AssemblyVisualizer.Plugin</AssemblyName>
+		<UseWpf>true</UseWpf>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<BaseOutputPath>D:\ILSpy-8.2\ILSpy\bin\</BaseOutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\breakpoint.png" />
+    <None Remove="images\event.png" />
+    <None Remove="images\overlayprivate.png" />
+    <None Remove="images\virtualmethod.png" />
+    <None Remove="images\folder.closed.png" />
+    <None Remove="images\resourcexsd.png" />
+    <None Remove="images\subtypes.png" />
+    <None Remove="images\delegate.png" />
+    <None Remove="images\resourceimage.png" />
+    <None Remove="images\overlaystatic.png" />
+    <None Remove="images\back.png" />
+    <None Remove="images\find.png" />
+    <None Remove="images\delete.png" />
+    <None Remove="images\library.png" />
+    <None Remove="images\assemblylist.png" />
+    <None Remove="images\interface.png" />
+    <None Remove="images\disabledbreakpoint.png" />
+    <None Remove="images\findassembly.png" />
+    <None Remove="images\overlayprotected.png" />
+    <None Remove="images\assemblywarning.png" />
+    <None Remove="images\currentline.png" />
+    <None Remove="images\overlayprotectedinternal.png" />
+    <None Remove="images\ok.png" />
+    <None Remove="images\method.png" />
+    <None Remove="images\field.png" />
+    <None Remove="images\forward.png" />
+    <None Remove="images\staticclass.png" />
+    <None Remove="images\enumvalue.png" />
+    <None Remove="images\struct.png" />
+    <None Remove="images\enum.png" />
+    <None Remove="images\extensionmethod.png" />
+    <None Remove="images\namespace.png" />
+    <None Remove="images\constructor.png" />
+    <None Remove="images\1xp180.png" />
+    <None Remove="images\property.png" />
+    <None Remove="images\viewcode.png" />
+    <None Remove="images\clearsearch.png" />
+    <None Remove="images\resource.png" />
+    <None Remove="images\supertypes.png" />
+    <None Remove="images\class.png" />
+    <None Remove="images\literal.png" />
+    <None Remove="images\referencefolder.open.png" />
+    <None Remove="images\operator.png" />
+    <None Remove="images\search.png" />
+    <None Remove="images\assembly.png" />
+    <None Remove="images\overlayinternal.png" />
+    <None Remove="images\referencefolder.closed.png" />
+    <None Remove="images\ib2.png" />
+    <None Remove="images\resourcexml.png" />
+    <None Remove="images\resourceresourcesfile.png" />
+    <None Remove="images\fieldreadonly.png" />
+    <None Remove="images\savefile.png" />
+    <None Remove="images\indexer.png" />
+    <None Remove="images\resourcexslt.png" />
+    <None Remove="images\pinvokemethod.png" />
+    <None Remove="images\open.png" />
+    <None Remove="images\folder.open.png" />
+    <None Remove="images\privateinternal.png" />
+    <None Remove="images\refresh.png" />
+    <EmbeddedResource Include="images\breakpoint.png" LogicalName="images/breakpoint.png" />
+    <EmbeddedResource Include="images\event.png" LogicalName="images/event.png" />
+    <EmbeddedResource Include="images\overlayprivate.png" LogicalName="images/overlayprivate.png" />
+    <EmbeddedResource Include="images\virtualmethod.png" LogicalName="images/virtualmethod.png" />
+    <EmbeddedResource Include="images\folder.closed.png" LogicalName="images/folder.closed.png" />
+    <EmbeddedResource Include="images\resourcexsd.png" LogicalName="images/resourcexsd.png" />
+    <EmbeddedResource Include="images\subtypes.png" LogicalName="images/subtypes.png" />
+    <EmbeddedResource Include="images\delegate.png" LogicalName="images/delegate.png" />
+    <EmbeddedResource Include="images\resourceimage.png" LogicalName="images/resourceimage.png" />
+    <EmbeddedResource Include="images\overlaystatic.png" LogicalName="images/overlaystatic.png" />
+    <EmbeddedResource Include="images\back.png" LogicalName="images/back.png" />
+    <EmbeddedResource Include="images\find.png" LogicalName="images/find.png" />
+    <EmbeddedResource Include="images\delete.png" LogicalName="images/delete.png" />
+    <EmbeddedResource Include="images\library.png" LogicalName="images/library.png" />
+    <EmbeddedResource Include="images\assemblylist.png" LogicalName="images/assemblylist.png" />
+    <EmbeddedResource Include="images\interface.png" LogicalName="images/interface.png" />
+    <EmbeddedResource Include="images\disabledbreakpoint.png" LogicalName="images/disabledbreakpoint.png" />
+    <EmbeddedResource Include="images\findassembly.png" LogicalName="images/findassembly.png" />
+    <EmbeddedResource Include="images\overlayprotected.png" LogicalName="images/overlayprotected.png" />
+    <EmbeddedResource Include="images\assemblywarning.png" LogicalName="images/assemblywarning.png" />
+    <EmbeddedResource Include="images\currentline.png" LogicalName="images/currentline.png" />
+    <EmbeddedResource Include="images\overlayprotectedinternal.png" LogicalName="images/overlayprotectedinternal.png" />
+    <EmbeddedResource Include="images\ok.png" LogicalName="images/ok.png" />
+    <EmbeddedResource Include="images\method.png" LogicalName="images/method.png" />
+    <EmbeddedResource Include="images\field.png" LogicalName="images/field.png" />
+    <EmbeddedResource Include="images\forward.png" LogicalName="images/forward.png" />
+    <EmbeddedResource Include="images\staticclass.png" LogicalName="images/staticclass.png" />
+    <EmbeddedResource Include="images\enumvalue.png" LogicalName="images/enumvalue.png" />
+    <EmbeddedResource Include="images\struct.png" LogicalName="images/struct.png" />
+    <EmbeddedResource Include="images\enum.png" LogicalName="images/enum.png" />
+    <EmbeddedResource Include="images\extensionmethod.png" LogicalName="images/extensionmethod.png" />
+    <EmbeddedResource Include="images\namespace.png" LogicalName="images/namespace.png" />
+    <EmbeddedResource Include="images\constructor.png" LogicalName="images/constructor.png" />
+    <EmbeddedResource Include="images\1xp180.png" LogicalName="images/1xp180.png" />
+    <EmbeddedResource Include="images\property.png" LogicalName="images/property.png" />
+    <EmbeddedResource Include="images\viewcode.png" LogicalName="images/viewcode.png" />
+    <EmbeddedResource Include="images\clearsearch.png" LogicalName="images/clearsearch.png" />
+    <EmbeddedResource Include="images\resource.png" LogicalName="images/resource.png" />
+    <EmbeddedResource Include="images\supertypes.png" LogicalName="images/supertypes.png" />
+    <EmbeddedResource Include="images\class.png" LogicalName="images/class.png" />
+    <EmbeddedResource Include="images\literal.png" LogicalName="images/literal.png" />
+    <EmbeddedResource Include="images\referencefolder.open.png" LogicalName="images/referencefolder.open.png" />
+    <EmbeddedResource Include="images\operator.png" LogicalName="images/operator.png" />
+    <EmbeddedResource Include="images\search.png" LogicalName="images/search.png" />
+    <EmbeddedResource Include="images\assembly.png" LogicalName="images/assembly.png" />
+    <EmbeddedResource Include="images\overlayinternal.png" LogicalName="images/overlayinternal.png" />
+    <EmbeddedResource Include="images\referencefolder.closed.png" LogicalName="images/referencefolder.closed.png" />
+    <Resource Include="images\ib2.png" LogicalName="images/ib2.png" />
+    <EmbeddedResource Include="images\resourcexml.png" LogicalName="images/resourcexml.png" />
+    <EmbeddedResource Include="images\resourceresourcesfile.png" LogicalName="images/resourceresourcesfile.png" />
+    <EmbeddedResource Include="images\fieldreadonly.png" LogicalName="images/fieldreadonly.png" />
+    <EmbeddedResource Include="images\savefile.png" LogicalName="images/savefile.png" />
+    <EmbeddedResource Include="images\indexer.png" LogicalName="images/indexer.png" />
+    <EmbeddedResource Include="images\resourcexslt.png" LogicalName="images/resourcexslt.png" />
+    <EmbeddedResource Include="images\pinvokemethod.png" LogicalName="images/pinvokemethod.png" />
+    <EmbeddedResource Include="images\open.png" LogicalName="images/open.png" />
+    <EmbeddedResource Include="images\folder.open.png" LogicalName="images/folder.open.png" />
+    <EmbeddedResource Include="images\privateinternal.png" LogicalName="images/privateinternal.png" />
+    <EmbeddedResource Include="images\refresh.png" LogicalName="images/refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ILSpy\ILSpy.csproj" />
+    <ProjectReference Include="..\SharpTreeView\ICSharpCode.TreeView.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.5" />
+  </ItemGroup>
+</Project>
